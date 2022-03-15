@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    margin: 25px 0 25px;
+    margin: 25px 0 0;
 }
 
 .header{
@@ -98,8 +98,6 @@ body{
 }
 
 .article{
-    /* background-image: url('./images/bg-curve-mobile.svg');
-    background-repeat: no-repeat; */
     background-color: hsl(240, 75%, 98%);
     padding-bottom: 75px;
 }
@@ -248,3 +246,153 @@ body{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:1024px) {
+    .header__nav{
+        margin-top: 50px;
+    }
+
+    .nav__logo{
+        margin-left: 45px;
+    }
+
+    .nav__ul{
+        margin-right: 25px;
+    }
+
+    .nav__ul li{
+        margin-right: 25px;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header__logo{
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .header2-3{
+        width: 45%;
+    }
+    
+    .header__h1{
+        text-align: start;
+    }
+    
+    .header__p{
+        text-align: start;
+    }
+    
+    .form{
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .form__input, .form__button{
+        height: 45px;
+        /* border: none; */
+        border-radius: 5px;
+        color: hsl(0, 0%, 75%);
+        font-size: 16px;
+    }
+    
+    .form__input{
+        border: 1px solid hsl(238, 22%, 44%);
+        padding-left: 25px;
+        margin-bottom: 15px;
+        margin-right: 25px;
+    }
+    
+    .form__button{
+        width: 95%;
+        color: #fff;
+        font-family: 'Raleway';
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        background-color: hsl(224, 93%, 58%);
+    }
+
+    .article__content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .content__logo{
+        width: 50%;
+    }
+    
+    .info__h3{
+        text-align: start;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    
+    .green{
+        margin: 0;
+    }
+    
+    .card{
+        width: 70%;
+        margin: 0;
+        margin-top: 35px;
+    }
+
+    .access{
+        display: flex;
+    }
+
+    .access__info{
+        width: 80%;
+        padding: 15px;
+    }
+    
+    .access__h3{
+        text-align: start;
+        font-size: 18px;
+    }
+    
+    .access__p{
+        text-align: start;
+    }
+    
+    .from__access{
+        flex-direction: column;
+        align-self: center;
+        width: 80%;
+        padding: 15px;
+    }
+    
+    .access__input{
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .access__input2{
+        width: 40%;
+    }
+
+    .footer{
+        background-color:hsl(243, 87%, 12%);
+        color: #fff;
+        padding: 50px 35px 50px;
+    }
+
+    .footer__info{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+    
+    .nav{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
